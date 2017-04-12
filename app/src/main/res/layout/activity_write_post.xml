@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_write_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sol.yackeen.skill4skill.activities.WritePost">
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#c42525"
+        android:id="@+id/mybarpost"
+        android:titleTextColor="#ffffff"
+        app:titleTextColor="#ffffff"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/donewritepost"
+            android:textColor="#ffffff"
+            android:background="@null"
+            android:text="next"
+            android:src="@drawable/iconcheck"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:inputType="textPersonName"
+      android:hint="Post content"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/mybarpost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

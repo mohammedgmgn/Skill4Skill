@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+        <menu>
+            <item
+
+                android:id="@+id/home_id"
+                android:icon="@drawable/home"
+                android:title="Home" />
+
+
+
+        </menu>
+    </item>
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Dashboard_id"
+            android:icon="@drawable/dashboared"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/Notifications_id"
+            android:icon="@drawable/notification"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/Messages_id"
+            android:icon="@drawable/messagesic"
+            android:title="Messages" />
+
+
+    </group>
+
+
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/Logout_id"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

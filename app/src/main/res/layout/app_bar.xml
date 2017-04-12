@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#c42525"
+    app:titleTextAppearance="@style/Toolbar.TitleText"
+    android:elevation="250dp"
+    android:title=""
+    android:layout_height="55dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showevents"
+        android:background="@drawable/lock"
+        android:layout_marginLeft="300dp"
+
+        />
+
+
+</android.support.v7.widget.Toolbar>

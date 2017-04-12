@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/followers"
+		android:orderInCategory="100"
+		android:title="edit"
+
+		app:showAsAction="never"/>
+
+	<item
+		android:id="@+id/following"
+		android:orderInCategory="100"
+		android:title="delete"
+		app:showAsAction="never"/>
+
+	<item
+		android:id="@+id/wall"
+		android:orderInCategory="100"
+		android:title="search"
+		
+		app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_viewav"
+    android:layout_width="210dp"
+    android:layout_height="210dp"
+
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/coverfolloweingm"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="top"
+            android:scaleType="fitStart"
+            android:src="@drawable/girll"
+
+            />
+
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="20dp"
+        android:text="Learn"
+        android:layout_marginRight="5dp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textSize="11sp"
+        />
+
+</android.support.v7.widget.CardView>
+
+
+

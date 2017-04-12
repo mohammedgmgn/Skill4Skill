@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Skill4Skill</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1758640794373727</string>
+    <string name="title_activity_navigation">navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="welcometv">Add what do you want to know</string>
+    <string name="availabletime">Add your available times</string>
+    <string name="mystatus">Add your status</string>
+    <string name="welcometvv">Add what do you know</string>
+
+    <string name="welcometvex">ex: web designing, web developing, Photoshop,UI/UX, Fashon designing or any thing else</string>
+    <string name="post">Life is the most difficult exam many people fail becouse they trying too copy others not realizing  </string>
+
+    <string-array name="days">
+        <item>Day</item>
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+
+    </string-array>
+    <string-array name="from">
+        <item>From</item>
+        <item>11:00</item>
+        <item>11:10</item>
+        <item>11:20</item>
+    </string-array>
+    <string-array name="to">
+        <item>To</item>
+        <item>12:30</item>
+        <item>1:30</item>
+        <item>3:30</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Welcome">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#0f3443"
+        android:id="@+id/mywelcomebar"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:titleTextColor="#ffffff"
+        android:layout_height="55dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next"
+            android:background="@null"
+            android:tint="#ffffff"
+            android:src="@drawable/go"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcometv"
+        android:textColor="#0f3443"
+        android:id="@+id/textView2"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/mywelcomebar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcometvex"
+        android:id="@+id/textView3"
+        android:textColor="#afaeae"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:background="@drawable/button_border"
+        android:id="@+id/addlearn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lern"
+        android:hint="  add something"
+        android:layout_alignTop="@+id/addlearn"
+        android:layout_toLeftOf="@+id/addlearn"
+        android:layout_toStartOf="@+id/addlearn" />
+
+
+</RelativeLayout>

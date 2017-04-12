@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_viewav"
+    android:layout_gravity="center"
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    card_view:cardCornerRadius="4dp"
+
+    >
+
+    <TextView
+        android:text="Hello Card"
+        android:id="@+id/mytextsav"
+        android:layout_gravity="center"
+        android:textColor="#0f3443"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+android:textColor="#0f3443"
+        android:id="@+id/timeav"
+        android:text="11:00"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom"
+        android:textColor="#0f3443"
+        android:id="@+id/timeavto"
+        android:text="11:00"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:src="@drawable/closeoctagon"
+        android:id="@+id/removeav"
+        />
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.learn">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mywelcomebar_two"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#0f3443"
+        android:titleTextColor="#ffffff"
+        app:titleTextAppearance="@style/Toolbar.TitleText">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="9">
+
+            <ImageView
+                android:id="@+id/donereg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="2"
+                android:src="@drawable/close" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/donereg"
+
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/donereg"
+                android:layout_toRightOf="@+id/donereg"
+                android:layout_weight="7"
+                android:text="Learn"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mywelcomebar_two"
+        android:layout_centerHorizontal="true"
+        android:text="Choose what do you want to learn"
+        android:textColor="#0f3443"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewlearn"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView10"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/recyclerViewlearn"
+        android:text="Choose available time"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0f3443" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerViewavtimechoose"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView11"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/learnnow"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RecyclerViewavtimechoose"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_border"
+        android:text="Learn Now"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
